@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\SoloApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestMainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestSampleScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\SoloApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestMainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestSampleScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{90783879-7264-3809-9AF6-8487004CF317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{961EF904-3E4A-3AAB-A95D-AC92DDAA0FDB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

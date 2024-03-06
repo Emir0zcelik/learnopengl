@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D80C89D-9310-33A3-B9B5-F8808A7BE1FF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Solo-Core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Solo-Core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Solo-Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Solo-Core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Solo-Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Solo-Core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Solo-Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Solo-Core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Solo-Core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfig.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glad\gladTargets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\Dev\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VAO.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VAO.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.h" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBOLayout.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Shader.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Shader.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Window\Window.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Window\Window.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Folder\Folder.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Folder\Folder.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Texture.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Texture.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\ImGui\imgui_impl_glfw_gl3.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\ImGui\imgui_impl_glfw_gl3.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\STB\stb_image.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\STB\stb_image.h" />
+    <None Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Shader\MainMenu.shader">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\ZERO_CHECK.vcxproj">
+      <Project>{4C4DAA83-C8AF-3215-B03C-B1E723BAD297}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
